@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+}
+.nLeft{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nRight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nRight ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.nRight ul li{
+    padding: 10px;
+}
+.nRight ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nRight div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+/* banner */
+.bannerContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    align-items: center;
+    gap: 10px;
+}
+.support >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support >div img{
+    height: 20px;
+}
+.bRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.bRight > img{
+    width: 100%;
+}
+/* main----------------------------- */
+.section1, .section2, .section3, .section4,.section5{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* section1 */
+
+.section1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.s1L{
+    width: 40%;
+}
+.s1L > img{
+    width: 100%;
+}
+.s1R{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    width: 40%;
+}
+
+/* section2 */
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.cardsContainer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border: none;
+    padding: 10px;
+}
+.card>img{
+    max-height: 300px;
+}
+.card>p{
+    font-size: x-small;
+}
+/* section 3 */
+.section3{
+    /* margin-top: 100px; */
+}
+.subsec1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.s31L{
+    width: 30%;
+    text-align: center;
+}
+.s31R{
+    width: 40%;
+    height: 400px;
+    position: relative;
+}
+.s31R #horse{
+    position: absolute;
+    height: 350px;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.s31R #cat{
+    position: absolute;
+    height: 200px;
+    top: 200px;
+    right: 220px;
+    z-index: 2;
+}
+/* section 4 */
+.section4{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-size: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.s4L{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    width: 40%;
+}
+.posts{
+    width: 100%;
+}
+.posts .post{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.s4R{
+    width: 40%;
+}
+.s4R> img{
+    width: 100%;
+}
+.section5{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+.genres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    width: 70%;
+    
+}
+.genre{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px 15px;
+    border:none;
+    border-radius: 10px;
+}
+
+
