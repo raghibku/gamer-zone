@@ -128,9 +128,6 @@
     font-size: x-small;
 }
 /* section 3 */
-.section3{
-    /* margin-top: 100px; */
-}
 .subsec1{
     display: flex;
     justify-content:center;
@@ -210,6 +207,46 @@
     padding: 10px 15px;
     border:none;
     border-radius: 10px;
+}
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: #0B0223;
+    color: white;
+    height: 300px;
+}
+.fContent{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width: 50%;
+}
+.fs1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.fs2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.fs2 button{
+    background: #0B0223;
+    color: white;
+    border: none;
+}
+.fs4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.fs5{
+    text-align: center;
 }
 
 
