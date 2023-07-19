@@ -207,10 +207,10 @@ body{
     padding: 10px;
 }
 
-#watchNow{
+.watchNow{
     height: 250px;
     width:210px;
-    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("./images/Rectangle 7.png");
+    /* background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ) */
     /* filter: brightness(40%); */
     background-size: contain;
     background-repeat: no-repeat;
@@ -219,10 +219,53 @@ body{
     justify-content: center;
     align-items: center;
     color: #ff87c5;
+    
+    border-radius: 12px;
+}
+.watchNow border{
+    visibility: hidden;
+}
+.watchNow img{
+    visibility: hidden;
+}
+.watchNow p{
+    visibility: hidden;
+}
+.card:hover{
+    .watchNow img{
+        visibility: visible;
+    }
+    .watchNow p{
+        visibility: visible;
+    }
+    .watchNow{
+        border: 5px solid #ff87c5;
+    }
+}
+#c1{
+    background-image:url("./images/Rectangle 4.png");
+}
+#c1:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("./images/Rectangle 4.png");
 }
 
-.card>img {
-    max-height: 250px;
+#c2{
+    background-image:url("./images/Rectangle 5.png");
+}
+#c2:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("./images/Rectangle 5.png");
+}
+#c3{
+    background-image:url("./images/Rectangle 7.png");
+}
+#c3:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("./images/Rectangle 7.png");
+}
+#c4{
+    background-image:url("./images/Rectangle 6.png");
+}
+#c4:hover{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("./images/Rectangle 6.png");
 }
 
 /* section 3 */
@@ -356,6 +399,7 @@ body{
 }
 .genre:hover{
     border: 2px solid  #FF42A5;
+    color:#FF42A5
 }
 
 footer {
