@@ -397,6 +397,9 @@ body{
     border: none;
     border-radius: 20px;
 }
+.genre img{
+    height: 30px;
+}
 .genre:hover{
     border: 2px solid  #FF42A5;
     color:#FF42A5
@@ -425,7 +428,7 @@ footer {
 .fs3,
 .fs4,
 .fs5 {
-    margin: 20px 0px;
+    margin: 0px 0px;
 }
 
 .fs1 {
@@ -480,4 +483,100 @@ footer {
 .fs5 {
     width: 100%;
     text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .navContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .nav {
+        width: 70%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .nRight {
+
+        flex-direction: column;
+    }
+    .bannerContainer {
+        flex-direction: column-reverse;
+    }
+    .bRight {
+        width: 80%;
+    }
+    .section1{
+        flex-direction: column;
+    }
+    .s1L {
+        width: 70%;
+    }
+    .s1R {
+        width: 70%;
+    }
+    .cardsContainer{
+        flex-direction: column;
+    }
+    .subsec1{
+        flex-direction: column-reverse;
+    }
+    .subsec2{
+        flex-direction: column;
+    }
+    .section4{
+        flex-direction: column;
+    }
+    .fContent{
+        width: 80%;
+    }
+    .fs2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+    }
+    .fs1{
+        width: 50%;
+        justify-content: center;
+    }
+    .genres{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+    }
+    .subsec1{
+        margin-bottom: 40px;
+    }
+    .s31R{
+        width: 100%;
+    }
+    .s31L{
+        width: 60%;
+    }
+    .s32L{
+        width: 98%;
+    }
+    .s32L #tigu {
+        left: 240px;
+    }
+    .s32R{
+        width: 60%;
+    }
+    .nLeft {
+        justify-content: center;
+        width: 30%;
+    }
+    .bLeft>h1>span {
+        font-size: 70px;
+    }
+    .post{
+        margin-bottom: 10px;
+    }
+    .genre > p{
+        font-size: small;
+    }
+
+
 }
