@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .nav {
     display: flex;
@@ -41,7 +44,11 @@
     justify-content: space-around;
     align-items: center;
 }
-
+#ash{
+    background-color: gainsboro;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
 .nRight ul {
     display: flex;
     justify-content: space-around;
@@ -87,6 +94,29 @@
     font-weight: 800;
     line-height: normal;
     text-transform: uppercase;
+}
+.b1{
+    font-weight: bold;
+    background-color: #FF42A5;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+#b3{
+    color: #FF42A5;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+}
+.bLeft #b2{
+    
+    background-color:#4EC5F7;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    border: none;
 }
 
 .support {
@@ -152,9 +182,6 @@
     gap: 10px;
     width: 40%;
 }
-.s1R h1{
-
-}
 
 /* section2 */
 .section2 {
@@ -167,7 +194,7 @@
 
 .cardsContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -180,12 +207,22 @@
     padding: 10px;
 }
 
-.card>img {
-    max-height: 300px;
+#watchNow{
+    height: 250px;
+    width:210px;
+    background-image: url("./images/Rectangle 7.png");
+    filter: brightness(40%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FF42A5;
 }
 
-.card>p {
-    font-size: x-small;
+.card>img {
+    max-height: 250px;
 }
 
 /* section 3 */
@@ -315,10 +352,14 @@
     align-items: center;
     padding: 10px 15px;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
+}
+.genre:hover{
+    border: 2px solid  #FF42A5;
 }
 
 footer {
+    padding: 50px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -359,6 +400,7 @@ footer {
 }
 
 .fs2 button {
+    padding: 10px 10px;
     background: #0B0223;
     color: white;
     border: none;
@@ -383,6 +425,9 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+.fs4 p{
+    padding: 10px 10px;
 }
 
 .fs5 {
