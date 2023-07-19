@@ -465,7 +465,12 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
-
+.fs3 button{
+    background-color: #0B0223;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
 .fs3 img {
     height: 40px;
     border-radius: 50%;
@@ -508,7 +513,11 @@ footer {
         flex-direction: column-reverse;
     }
     .bRight {
+        
         width: 80%;
+    }
+    .bLeft{
+        margin-top: 50px;
     }
     .section1{
         flex-direction: column;
@@ -527,6 +536,7 @@ footer {
     }
     .subsec2{
         flex-direction: column;
+
     }
     .section4{
         flex-direction: column;
@@ -580,7 +590,7 @@ footer {
         font-size: small;
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) and (min-width: 601px) {
     .cardsContainer{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -588,6 +598,9 @@ footer {
     }
     .subsec1,.subsec2{
         justify-content: space-around;
+    }
+    .subsec2{
+        gap:5%
     }
     .genres{
         display: grid;
