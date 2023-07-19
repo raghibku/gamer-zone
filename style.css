@@ -154,8 +154,8 @@ body{
 .section3,
 .section4,
 .section5 {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* section1 */
@@ -301,7 +301,9 @@ body{
     right: 220px;
     z-index: 2;
 }
-
+.subsec1,.subsec2{
+    padding:30px 0px;
+}
 /* subsec 2 */
 
 .subsec2 {
@@ -344,7 +346,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    padding: 20px;
 }
 
 .s4L {
@@ -352,7 +354,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 60%;
+    width: 70%;
 }
 
 .posts {
@@ -366,7 +368,7 @@ body{
 }
 
 .s4R {
-    width: 40%;
+    width: 30%;
 }
 
 .s4R>img {
@@ -577,6 +579,28 @@ footer {
     .genre > p{
         font-size: small;
     }
-
-
+}
+@media screen and (max-width: 900px) {
+    .cardsContainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+    }
+    .subsec1,.subsec2{
+        justify-content: space-around;
+    }
+    .genres{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+    }
+    .fs2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+    }
+    .fs1{
+        width: 50%;
+        justify-content: center;
+    }
 }
