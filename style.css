@@ -298,7 +298,7 @@ body{
     position: absolute;
     height: 200px;
     top: 200px;
-    right: 220px;
+    right: 250px;
     z-index: 2;
 }
 .subsec1,.subsec2{
@@ -326,6 +326,7 @@ body{
 .s32L #anime {
     position: absolute;
     height: 350px;
+    width: 342px;
     top: 0px;
     left: 0px;
     z-index: 1;
@@ -566,6 +567,9 @@ footer {
     }
     .s31L{
         width: 60%;
+    }
+    .s31R #horse{
+        right: 10px;
     }
     .s32L{
         width: 98%;
