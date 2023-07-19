@@ -152,7 +152,7 @@ body{
 .section1,
 .section2,
 .section3,
-.section4,
+/* .section4, */
 .section5 {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -347,7 +347,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    
 }
 
 .s4L {
@@ -356,6 +356,7 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 70%;
+    padding: 50px 20px;
 }
 
 .posts {
