@@ -434,6 +434,9 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+.fs1 span{
+    color: #FF42A5;
+}
 
 .fs2 {
     width: 100%;
