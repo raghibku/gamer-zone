@@ -1,252 +1,391 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 15px 0px;
 }
-.nLeft{
+
+.colorText {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.secHeading{
+    /* text-align: right; */
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nLeft {
+    width: 14%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nLeft>h2>span {
+    font-size: 1.5rem;
+    color: #FF42A5;
+}
+
+.nRight {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.nRight{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.nRight ul{
+
+.nRight ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
 }
-.nRight ul li{
+
+.nRight ul li {
     padding: 10px;
 }
-.nRight ul li a{
+
+.nRight ul li a {
     text-decoration: none;
     color: black;
 }
-.nRight div{
+
+.nRight div {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
 }
+
 /* banner */
-.bannerContainer{
+.bannerContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.bLeft{
+
+.bLeft {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.support{
+
+.bLeft>h1>span {
+    text-align: center;
+    /* font-family: Work Sans; */
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.support {
     display: flex;
     flex-direction: column;
-    justify-content:flex-start ;
+    justify-content: flex-start;
     align-items: center;
     gap: 10px;
 }
-.support >div{
+
+.support>div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.support >div img{
+
+.support>div img {
     height: 20px;
 }
-.bRight{
+
+.bRight {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 40%;
 }
-.bRight > img{
+
+.bRight>img {
     width: 100%;
 }
+
 /* main----------------------------- */
-.section1, .section2, .section3, .section4,.section5{
+.section1,
+.section2,
+.section3,
+.section4,
+.section5 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 /* section1 */
 
-.section1{
+.section1 {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 }
-.s1L{
+
+.s1L {
     width: 40%;
 }
-.s1L > img{
+
+.s1L>img {
     width: 100%;
 }
-.s1R{
+
+.s1R {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 10px;
     width: 40%;
 }
+.s1R h1{
+
+}
 
 /* section2 */
-.section2{
+.section2 {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
-.cardsContainer{
+
+.cardsContainer {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     border: none;
     padding: 10px;
 }
-.card>img{
+
+.card>img {
     max-height: 300px;
 }
-.card>p{
+
+.card>p {
     font-size: x-small;
 }
+
 /* section 3 */
-.subsec1{
+.subsec1 {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
-.s31L{
+
+.s31L {
     width: 30%;
     text-align: center;
 }
-.s31R{
+
+.s31R {
     width: 40%;
     height: 400px;
     position: relative;
 }
-.s31R #horse{
+
+.s31R #horse {
     position: absolute;
     height: 350px;
     top: 0px;
     right: 0px;
     z-index: 1;
 }
-.s31R #cat{
+
+.s31R #cat {
     position: absolute;
     height: 200px;
     top: 200px;
     right: 220px;
     z-index: 2;
 }
+
+/* subsec 2 */
+
+.subsec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s32R {
+    width: 30%;
+    text-align: center;
+}
+
+.s32L {
+    width: 40%;
+    height: 400px;
+    position: relative;
+}
+
+.s32L #anime {
+    position: absolute;
+    height: 350px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.s32L #tigu {
+    position: absolute;
+    height: 200px;
+    top: 200px;
+    left: 270px;
+    z-index: 2;
+}
+
 /* section 4 */
-.section4{
+.section4 {
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     background-size: 100%;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-    
+
 }
-.s4L{
+
+.s4L {
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
+    width: 60%;
+}
+
+.posts {
+    width: 100%;
+}
+
+.posts .post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s4R {
     width: 40%;
 }
-.posts{
+
+.s4R>img {
     width: 100%;
 }
-.posts .post{
+
+.section5 {
     display: flex;
-    justify-content:space-between;
-    align-items: center;
-}
-.s4R{
-    width: 40%;
-}
-.s4R> img{
-    width: 100%;
-}
-.section5{
-    display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
-.genres{
+
+.genres {
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     width: 70%;
-    
+
 }
-.genre{
+
+.genre {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     padding: 10px 15px;
-    border:none;
+    border: none;
     border-radius: 10px;
 }
-footer{
+
+footer {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     background: #0B0223;
     color: white;
-    height: 300px;
+    /* height: 300px; */
 }
-.fContent{
+
+.fContent {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 50%;
 }
-.fs1{
+
+.fs1,
+.fs2,
+.fs3,
+.fs4,
+.fs5 {
+    margin: 20px 0px;
+}
+
+.fs1 {
+    width: 30%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
-.fs2{
+
+.fs2 {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
-.fs2 button{
+
+.fs2 button {
     background: #0B0223;
     color: white;
     border: none;
 }
-.fs4{
+
+.fs3 {
+    width: 40%;
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
-.fs5{
-    text-align: center;
+
+.fs3 img {
+    height: 40px;
+    border-radius: 50%;
 }
 
+.fs4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.fs5 {
+    width: 100%;
+    text-align: center;
+}
