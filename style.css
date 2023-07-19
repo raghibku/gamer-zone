@@ -210,15 +210,15 @@ body{
 #watchNow{
     height: 250px;
     width:210px;
-    background-image: url("./images/Rectangle 7.png");
-    filter: brightness(40%);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("./images/Rectangle 7.png");
+    /* filter: brightness(40%); */
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #FF42A5;
+    color: #ff87c5;
 }
 
 .card>img {
